@@ -15,6 +15,7 @@ export default slide(() => (
         }
         `}
         </pre></code>
+        <p>Use GraphQL to retrieve a list of profiles</p>
         <p><a href="/assignments/04/">Assignment</a></p>
     </section>
 ));
