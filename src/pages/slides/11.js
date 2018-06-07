@@ -3,14 +3,15 @@ import slide from '../../slide-hoc';
 
 export default slide(() => (
     <section>
-        <h1>Assignment: Setup</h1>
+        <h1>Assignment: JSX</h1>
         <code><pre>
-{`
-git clone https://github.com/jcamins/react-lesson2
-cd react-lesson2
-npm install
-npm run develop
-`}
+            {`
+            <div>
+                <Link to={'/my/url'}>Go somewhere</Link>
+            </div>`}
         </pre></code>
+        <p>Implement a component that renders a picture
+        from the cat API and your name</p>
+        <p><a href="/assignments/01/">Assignment</a></p>
     </section>
 ));
