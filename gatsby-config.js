@@ -2,6 +2,7 @@ const { graphqlExpress, graphiqlExpress } = require('apollo-server-express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const { makeExecutableSchema } = require('graphql-tools');
+const fetch = require('isomorphic-fetch');
 
 const record = {
   firstName: 'John',
